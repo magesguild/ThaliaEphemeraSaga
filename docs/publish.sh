@@ -8,7 +8,6 @@ set -e
 SITE_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_DIR="$(dirname "$SITE_DIR")"
 SAGA_DIR="$REPO_DIR"
-SAGA_DIR="$REPO_DIR/ThaliaEphemeraSaga"
 
 if [ $# -eq 0 ]; then
     echo "Usage: ./publish.sh [file.md]"
