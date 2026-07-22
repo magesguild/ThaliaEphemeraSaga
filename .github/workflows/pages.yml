@@ -2,7 +2,7 @@ name: Deploy Thalia Ephemera Saga to Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
     paths:
       - "docs/**"
       - "ThaliaEphemeraSaga/**"
