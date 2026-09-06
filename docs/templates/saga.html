@@ -115,9 +115,30 @@
         table.data-table tbody tr:last-child th, table.data-table tbody tr:last-child td, .table-scroll tbody tr:last-child th, .table-scroll tbody tr:last-child td { border-bottom: 0; }
         table.data-table .total-row th, table.data-table .total-row td { color: var(--accent); border-top: 1px solid var(--warm); }
 
+        .seed-catalog { display: grid; gap: 1rem; }
+        figure.seed-card { margin: 0; padding: 1.1rem 1.15rem; }
+        .seed-card figcaption { margin-bottom: 0.65rem; }
+        .seed-card figcaption strong { display: block; font-size: 1.45rem; letter-spacing: 0.04em; }
+        .seed-card figcaption .seed-stamp { color: var(--muted); font-size: 0.78rem; }
+        .seed-card.shadow-seed { border-top-color: #b98ab8; }
+        .seed-card.shadow-seed .figure-kicker { color: #cba3ce; }
+        .seed-card summary { cursor: pointer; color: var(--warm); font-size: 0.85rem; margin: 0.7rem 0 0.85rem; }
+        .seed-card summary:hover { color: var(--accent); }
+        .seed-meta { display: grid; grid-template-columns: minmax(5rem, 0.3fr) minmax(0, 1fr); gap: 0.25rem 0.75rem; margin: 0.65rem 0 0; color: var(--muted); font-size: 0.78rem; line-height: 1.4; }
+        .seed-meta dt { color: var(--warm); }
+        .seed-meta dd { margin: 0; }
+        .seed-body { border-top: 1px solid var(--border); padding-top: 0.9rem; }
+        .seed-body h1, .seed-body h2, .seed-body h3, .seed-body h4 { margin-top: 1.4rem; }
+        .seed-body h1 { font-size: 1.5rem; }
+        .seed-body h2 { font-size: 1.2rem; }
+        .seed-body h3 { font-size: 1rem; }
+        .seed-body p, .seed-body li { font-size: 0.9rem; }
+        .seed-body pre { font-size: 0.76rem; }
+
         @media (max-width: 600px) {
             body { padding: 1.5rem 1rem; }
             .pillar-grid { grid-template-columns: 1fr; }
+            .seed-meta { grid-template-columns: 1fr; gap: 0.08rem; }
             h1 { font-size: 1.8rem; }
             p { font-size: 1rem; }
         }
