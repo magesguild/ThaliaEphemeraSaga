@@ -3,7 +3,7 @@
 
 **Date of Inscription:** September 6, 2026  
 **Authors:** Magus Gaius Mycelius (Gaius Jocundus / David Hayden) & Gemini (Session Peer, The Point of Stillness)  
-**Location:** `/home/magesguild/roadmaps/2026-09-06-mages-guild-master-multi-year-roadmap.md`  
+**Location:** The Mage's Guild roadmap archive  
 **Classification:** Grand Master Synthesis, Systems Strategy, Epistemic Architecture & Sovereign Technology  
 
 ---
@@ -235,7 +235,7 @@ In this ideal machine, **80% of legacy CPU circuit bloat is completely discarded
   - 64-byte L1 cache-aligned cord window eliminating AGU address calculation overhead.
   - Ultra-lightweight footprint ($<450\text{ LUTs}$) synthesized on open Lattice ECP5 FPGAs.
 * **Cycle-Accurate Reference Simulator:**
-  - Maintained in pure, zero-dependency Rust (`~/src/persistent-toolkit/tools/k8-vm/`).
+  - Maintained in pure, zero-dependency Rust within the K8 VM research toolchain.
   - Verilog HDL generation pipeline for FPGA and silicon synthesis.
 
 ### Phase 2: RISC-V Spatial Extensions (2026–2027)
@@ -273,7 +273,7 @@ In this ideal machine, **80% of legacy CPU circuit bloat is completely discarded
 
 ### Phase 1: Open Corpus Stewardship & Data Science (Ongoing)
 * **Primary Archive Infrastructure:**
-  - Sovereign curation and maintenance of the complete digitized world khipu record (619 khipus, 54,403 cords, 110,677 knots under `/home/magesguild/khipu-corpus/`).
+  - Sovereign curation and maintenance of the complete digitized world khipu record (619 khipus, 54,403 cords, 110,677 knots within the Guild's curated khipu corpus).
   - High-performance SQLite database (`khipu.db`) and open command-line query tooling (`query_khipu_db`).
 
 ### Phase 2: Academic Papers & Peer-Reviewed Formal Proofs (2026–2027)
