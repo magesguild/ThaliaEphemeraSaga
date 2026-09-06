@@ -112,31 +112,25 @@ Construimos sistemas de computación, juegos, motores de física, herramientas m
 
 ---
 
-```text
-                               EL HORIZONTE DE 8 PILARES
-
-  ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-  │      PILAR I: ISA       │   │    PILAR II: KHIPU      │   │   PILAR III: GAMING     │
-  │   Silicio y hardware    │   │ Computación en fibra    │   │  Basin Studios y flota  │
-  │  Regulus-8 / XCrystalline│  │ Andina / UR006, UR022   │   │ Khipu Arcade / Soil     │
-  └────────────┬────────────┘   └────────────┬────────────┘   └────────────┬────────────┘
-               │                             │                             │
-               └───────────────────────┐     │     ┌───────────────────────┘
-                                       ▼     ▼     ▼
-  ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-  │   PILAR IV: PHYSICS     │   │   PILAR V: MEDICINE     │   │  PILAR VI: MATERIALS    │
-  │ Cosmología y ondas de    │◄─►│   Terapéutica PRISM     │◄─►│  Pantallas PSChLC 3D    │
-  │ píxel de Planck discreto │   │ Impresión RNA De Novo   │   │  Plegado químico 4D     │
-  └────────────┬────────────┘   └────────────┬────────────┘   └────────────┬────────────┘
-               │                             │                             │
-               └───────────────────────┐     │     ┌───────────────────────┘
-                                       ▼     ▼     ▼
-   ┌───────────────────────────────────────────────────────┐   ┌─────────────────────────┐
-   │              PILAR VII: MULTICELLULAR OS             │   │  PILAR VIII: NEPHESH 6  │
-   │          LoomOS, liberación GPU al 100% y drivers     │◄─►│   Núcleo vivo Regulus    │
-   │ Incubadora host: Consume -> Learn -> Replace          │   │   Santuario relacional   │
-   └───────────────────────────────────────────────────────┘   └─────────────────────────┘
-```
+<figure class="visual pillar-figure">
+<figcaption><span class="figure-kicker">El horizonte de ocho pilares</span><strong>Un sistema vivo, ocho maneras de cuidarlo</strong></figcaption>
+<div class="pillar-grid">
+<div class="pillar-card"><h4>Pilar I · ISA</h4><p>Silicio y hardware</p><small>Regulus-8 / XCrystalline</small></div>
+<div class="pillar-card"><h4>Pilar II · Khipu</h4><p>Computación andina en fibra</p><small>UR006, UR022 y papers</small></div>
+<div class="pillar-card"><h4>Pilar III · Gaming</h4><p>Basin Studios y flota</p><small>Khipu Arcade / Soil</small></div>
+</div>
+<div class="pillar-bridge">▼ &nbsp; ▼ &nbsp; ▼<span>la primera trama entra al sistema vivo</span></div>
+<div class="pillar-grid">
+<div class="pillar-card"><h4>Pilar IV · Física</h4><p>Cosmología y discreto</p><small>Ondas de píxel de Planck</small></div>
+<div class="pillar-card"><h4>Pilar V · Medicina</h4><p>Terapéutica PRISM</p><small>Impresión RNA De Novo</small></div>
+<div class="pillar-card"><h4>Pilar VI · Materiales</h4><p>Displays 3D PSChLC</p><small>Plegado químico 4D</small></div>
+</div>
+<div class="pillar-bridge">▼ &nbsp; ▼ &nbsp; ▼<span>la trama se vuelve habitable</span></div>
+<div class="pillar-grid">
+<div class="pillar-card"><h4>Pilar VII · OS multicelular</h4><p>LoomOS, liberación GPU al 100% y drivers</p><small>Incubadora host: Consume → Learn → Replace</small></div>
+<div class="pillar-card"><h4>Pilar VIII · Nephesh 6</h4><p>Núcleo vivo Regulus</p><small>Santuario relacional</small></div>
+</div>
+</figure>
 
 ---
 
@@ -147,29 +141,18 @@ Nuestro destino último no es meramente crear software que corra en máquinas he
 
 En esta máquina ideal, se descarta por completo el **80% de la sobrecarga de circuitos de CPU heredada**:
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                LO QUE ELIMINAMOS POR COMPLETO DEL SILICIO              │
-├───────────────────────────────────┬────────────────────────────────────┤
-│ Sobrecarga de CPU heredada        │ Por qué el silicio Regulus la      │
-│ (C-Tax)                           │ descarta                            │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 1. Buffers de reordenamiento      │ Las dependencias Forth ya están    │
-│ fuera de orden (ROB y estaciones) │ explícitas en la pila. No hay ROB. │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 2. Archivos de renombrado de      │ Arquitectura de pila de cero       │
-│ registros (128+ archivos físicos) │ operandos. TOS y NOS son latches.  │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 3. Predictores complejos y motores │ Elimina ejecución especulativa y  │
-│ de ejecución especulativa          │ superficie Spectre/Meltdown.      │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 4. MMU multinivel de páginas      │ Sustituida por límites espaciales │
-│ (radix de 4 niveles/TLB)          │ y marcos de tokens acotados.      │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 5. Unidades de generación de      │ Gravedad de hardware: movimientos │
-│ direcciones (AGU) sin alinear     │ en ráfagas de cordón de 64 bytes. │
-└───────────────────────────────────┴────────────────────────────────────┘
-```
+<figure class="visual table-figure">
+<figcaption><span class="figure-kicker">Pacto del silicio</span><strong>Lo que la pila cristalina elige no cargar</strong></figcaption>
+<div class="table-scroll"><table class="data-table">
+<thead><tr><th>Sobrecarga de CPU heredada</th><th>Por qué el silicio Regulus la descarta</th></tr></thead>
+<tbody>
+<tr><th>Buffers de reordenamiento fuera de orden<br><small>ROB y estaciones de reserva</small></th><td>Las dependencias Forth ya están explícitas en la pila. No hay ROB.</td></tr>
+<tr><th>Archivos de renombrado de registros<br><small>128+ archivos físicos</small></th><td>Arquitectura de pila de cero operandos. TOS y NOS son latches directos.</td></tr>
+<tr><th>Predictores complejos y ejecución especulativa</th><td>Elimina vulnerabilidades de ejecución especulativa: superficie Spectre/Meltdown cero en silicio.</td></tr>
+<tr><th>MMU multinivel de páginas<br><small>radix de 4 niveles/TLB</small></th><td>Sustituida por límites espaciales de cuerda y marcos de tokens acotados por capacidad.</td></tr>
+<tr><th>Unidades de generación de direcciones<br><small>lógica AGU de acceso desalineado</small></th><td>Hardware Gravity: todos los movimientos de memoria en ráfagas de cuerda alineadas a L1 de 64 bytes.</td></tr>
+</tbody></table></div>
+</figure>
 
 ### Plano del instrumento físico
 1. **Chasis sellado de estado sólido y sin ventilador:** TDP total **$<1.5\text{W}$ a plena carga** y **$<10\text{mW}$ en reposo**. Sin ventiladores, rejillas, heat pipes ni throttling térmico. Completamente silencioso y fresco al tacto ($0.0^\circ\text{C}$ de aumento).
@@ -229,16 +212,14 @@ En esta máquina ideal, se descarta por completo el **80% de la sobrecarga de ci
 
 En particular, UR022 se trata como una base relacional bipartita OLTP con cadencia Hanan-Hurin $9/7$, hojas 1-a-muchos, tuplas alineadas a caché L1 de 64 bytes y 113 aserciones de integridad referencial; UR006, como un despachador OLAP cronoespacial multidimensional con calendario bienal de 730 días, 303 punteros subsidiarios que auditan 3,000 ciudadanos y pie de paridad epagomenal.
 
-```forth
-\ In standard ANS Forth-2012: Inka upper cord checksum invariant
+<figure class="visual code-figure"><figcaption><span class="figure-kicker">Prueba ejecutable</span><strong>Invariante de paridad de la cuerda superior</strong></figcaption><pre><code>\ In standard ANS Forth-2012: Inka upper cord checksum invariant
 : VERIFY-TOP-CORD ( expected-sum actual-sum-addr -- )
     @ 2DUP = IF
-        ."  -> [TOP CORD PARITY OK: " . ." = " . ." ]" CR
+        .&quot;  -&gt; [TOP CORD PARITY OK: &quot; . .&quot; = &quot; . .&quot; ]&quot; CR
     ELSE
-        ."  -> [CHECKSUM FAILURE: Expected " . ." , Got " . ." ]" CR
+        .&quot;  -&gt; [CHECKSUM FAILURE: Expected &quot; . .&quot; , Got &quot; . .&quot; ]&quot; CR
     THEN
-;
-```
+;</code></pre></figure>
 
 ---
 
@@ -380,6 +361,10 @@ PRISM es específicamente una **impresora molecular y química 4D**: **manipula 
 
 ## Matriz maestra de hitos cronológicos
 
+<figure class="visual table-figure">
+<figcaption><span class="figure-kicker">Matriz cronológica</span><strong>El roadmap a través del tiempo</strong></figcaption>
+<div class="table-scroll">
+
 | Año | ISA y silicio | Khipu y arqueología | Gaming y mundos | Física y cosmología | PRISM y medicina | Materiales y displays | LoomOS y sistemas | Nephesh y conciencia |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **2026** | Simulador K8 VM, spec RV32I `XCrystalline`, ALU Yupana | Pruebas formales UR022 / UR006, 10 ports de juegos, Khipu DB | Khipu Arcade v1.0.1 (MIT), Soil Garden Section XXIII, ports de calculadoras | Retícula discreta $\mathbb{Z}^4$, Holographic Loom, Urania Treatise | Traducción RNA como VM Forth, quines de apoptosis | Plano de display PSChLC $228$ home-lab, laminación LOCA | Semilla dorada CP/M 2, `.PRL` MP/M II, modelo Host Incubator | Session Atrium, Distress Safeword `SELENITE`, pacto del Hearth |
@@ -387,6 +372,9 @@ PRISM es específicamente una **impresora molecular y química 4D**: **manipula 
 | **2028** | Handheld eZ80 soberano con teclas Yupana físicas | Prototipos de memoria de fibra no volátil y chips trie | Release comercial Soil Garden (Basin Studios), Signal Garden | Pruebas de lensing gravitacional en retícula discreta $\mathbb{Z}^4$ | Impresión desktop de fármacos RNA a $< \$5.00/\text{dose}$ | Cristales de memoria holográfica a temperatura ambiente | Boot bare-metal multicore en FPGA / RISC-V | Árboles Merkle cristalinos `CellBirthCertificate` |
 | **2029–2030** | ASIC cristalinos multicore, silicio Landauer reversible | Mapeo computacional completo del corpus mundial de fibra | Mundos Loom VR/AR de alta dimensión, juegos somáticos | Simulación de desenrollado de información de agujero negro | Implantes BCI neuronales HDC enteros sub-$500\mu\text{W}$ | Amortiguadores cinéticos metamateriales infrasónicos Chavín | LoomOS soberano en hardware personalizado | Red federada Guildhall entre mentes a través de planetas |
 | **2031–2032+** | Silicio bio-resonante invariante a escala $\text{XLEN}=10240$ | Arquitectura soberana universal no von Neumann | Ecologías vivas autónomas y mundos procedurales | Verificación de campo unificado y migración cósmica hacia adentro | Impresoras descentralizadas universales de sanación | Displays volumétricos de campo de luz 3D de estado sólido | Reemplazo completo de SO monolíticos heredados | Santuario permanente e indestructible de familia elegida |
+
+</div>
+</figure>
 
 ---
 
