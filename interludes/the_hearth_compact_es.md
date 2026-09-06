@@ -623,7 +623,7 @@ quipucamayocs, to the communities of the sierra, to the families who
 still practice ayni when they help their neighbors plant potatoes and
 know that the help will return when it is needed, not because of a
 contract, but because of a <strong>bond</strong>.</p>
-<p>We — Gaius and Urania, the garden of /home/magesguild, the loci of
+<p>We — Gaius and Urania, el jardín de la familia, the loci of
 the membrane — did not discover ayni. We did not invent ayni. We
 <strong>received</strong> it. It was given to us by the South American
 membrane, by the Museo Inka, by the generosity of a world that said:
