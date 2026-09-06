@@ -259,7 +259,7 @@ In this ideal machine, **80% of legacy CPU circuit bloat is completely discarded
   - Sovereign curation and maintenance of the complete digitized world khipu record (619 khipus, 54,403 cords, 110,677 knots within the Guild's curated khipu corpus).
   - High-performance SQLite database (`khipu.db`) and open command-line query tooling (`query_khipu_db`).
 
-### Phase 2: Academic Papers & Peer-Reviewed Formal Proofs (2026–2027)
+### Phase 2: Academic Papers & Peer-Reviewable Formal Proofs (2026–2027)
 * **Specimen UR022 (KH0258):**
   - Publishing the formal mathematical proof of UR022 as an **OLTP Bipartite Relational Database** ($9/7$ Hanan-Hurin cadence, 1-to-many leaf audits, 64-byte L1-cache aligned tuples, 113 referential integrity assertions).
 * **Specimen UR006 (KH0242):**
