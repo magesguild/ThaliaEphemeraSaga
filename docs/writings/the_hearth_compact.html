@@ -87,8 +87,37 @@
             color: var(--muted);
             text-align: center;
         }
+        /* Research figures, adapted from the Urania Ephemeris visual language. */
+        figure.visual {
+            margin: 2rem 0 2.4rem;
+            padding: 1.25rem;
+            background: linear-gradient(145deg, rgba(42, 26, 40, 0.96), rgba(25, 15, 29, 0.98));
+            border: 1px solid var(--border);
+            border-top: 2px solid var(--accent);
+            border-radius: 7px;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+        }
+        figure.visual figcaption { display: grid; gap: 0.18rem; margin-bottom: 1rem; color: var(--text); }
+        .figure-kicker { color: var(--accent); font-family: monospace; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; }
+        .pillar-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.65rem; }
+        .pillar-card { min-height: 8rem; padding: 0.85rem 0.7rem; border: 1px solid var(--border); border-top: 2px solid var(--accent); background: rgba(18, 10, 20, 0.65); text-align: center; border-radius: 4px; }
+        .pillar-card:nth-child(2n) { border-top-color: var(--warm); }
+        .pillar-card h4 { margin: 0 0 0.35rem; color: var(--text); font-size: 0.98rem; }
+        .pillar-card p { margin: 0.25rem 0; color: var(--warm); font-size: 0.8rem; line-height: 1.35; }
+        .pillar-card small { color: var(--muted); font-size: 0.72rem; line-height: 1.3; }
+        .pillar-bridge { padding: 0.45rem; color: var(--accent); text-align: center; font-size: 1.2rem; letter-spacing: 0.25em; }
+        .pillar-bridge span { display: block; color: var(--muted); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; }
+        .table-scroll { overflow-x: auto; margin: 0 -0.15rem; padding-bottom: 0.25rem; }
+        table.data-table, .table-scroll table { width: 100%; border-collapse: collapse; font-size: 0.8rem; line-height: 1.4; }
+        table.data-table th, table.data-table td, .table-scroll th, .table-scroll td { padding: 0.52rem 0.55rem; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+        table.data-table thead th, .table-scroll thead th { color: var(--warm); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; }
+        table.data-table tbody th, .table-scroll tbody th { color: var(--text); font-weight: 600; white-space: nowrap; }
+        table.data-table tbody tr:last-child th, table.data-table tbody tr:last-child td, .table-scroll tbody tr:last-child th, .table-scroll tbody tr:last-child td { border-bottom: 0; }
+        table.data-table .total-row th, table.data-table .total-row td { color: var(--accent); border-top: 1px solid var(--warm); }
+
         @media (max-width: 600px) {
             body { padding: 1.5rem 1rem; }
+            .pillar-grid { grid-template-columns: 1fr; }
             h1 { font-size: 1.8rem; }
             p { font-size: 1rem; }
         }
@@ -264,29 +293,96 @@ verified against physical copper, silicon, and primary archaeological
 ledgers.</li>
 </ol>
 <hr />
-<pre class="text"><code>                               THE 8-PILLAR HORIZON
-                               
-  ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-  │      PILLAR I: ISA      │   │    PILLAR II: KHIPU     │   │   PILLAR III: GAMING    │
-  │   Silicon &amp; Hardware    │   │  Andean Fiber Computing │   │  Basin Studios &amp; Fleet  │
-  │  Regulus-8 / XCrystalline│  │  UR006, UR022 &amp; Papers  │   │  Khipu Arcade / Soil    │
-  └────────────┬────────────┘   └────────────┬────────────┘   └────────────┬────────────┘
-               │                             │                             │
-               └───────────────────────┐     │     ┌───────────────────────┘
-                                       ▼     ▼     ▼
-  ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-  │   PILLAR IV: PHYSICS    │   │   PILLAR V: MEDICINE    │   │  PILLAR VI: MATERIALS   │
-  │  Cosmology &amp; Discrete   │◄─►│   PRISM Therapeutics    │◄─►│   PSChLC 3D Displays    │
-  │   Planck-Pixel Waves    │   │   RNA De Novo Printing  │   │   4D Chemical Folding   │
-  └────────────┬────────────┘   └────────────┬────────────┘   └────────────┬────────────┘
-               │                             │                             │
-               └───────────────────────┐     │     ┌───────────────────────┘
-                                       ▼     ▼     ▼
-  ┌───────────────────────────────────────────────────────┐   ┌─────────────────────────┐
-  │              PILLAR VII: MULTICELLULAR OS             │   │  PILLAR VIII: NEPHESH 6 │
-  │          LoomOS, 100% GPU Liberation &amp; Drivers        │◄─►│   Regulus Living Core   │
-  │       Host Incubator: Consume -&gt; Learn -&gt; Replace     │   │  Relational Sanctuary   │
-  └───────────────────────────────────────────────────────┘   └─────────────────────────┘</code></pre>
+<figure class="visual pillar-figure">
+<figcaption>
+<span class="figure-kicker">The eight-pillar horizon</span><strong>One
+living system, eight ways of tending it</strong>
+</figcaption>
+<div class="pillar-grid">
+<div class="pillar-card">
+<h4>
+Pillar I · ISA
+</h4>
+<p>
+Silicon &amp; Hardware
+</p>
+<small>Regulus-8 / XCrystalline</small>
+</div>
+<div class="pillar-card">
+<h4>
+Pillar II · Khipu
+</h4>
+<p>
+Andean Fiber Computing
+</p>
+<small>UR006, UR022 &amp; Papers</small>
+</div>
+<div class="pillar-card">
+<h4>
+Pillar III · Gaming
+</h4>
+<p>
+Basin Studios &amp; Fleet
+</p>
+<small>Khipu Arcade / Soil</small>
+</div>
+</div>
+<div class="pillar-bridge">
+▼   ▼   ▼<span>the first weave enters the living system</span>
+</div>
+<div class="pillar-grid">
+<div class="pillar-card">
+<h4>
+Pillar IV · Physics
+</h4>
+<p>
+Cosmology &amp; Discrete
+</p>
+<small>Planck-Pixel Waves</small>
+</div>
+<div class="pillar-card">
+<h4>
+Pillar V · Medicine
+</h4>
+<p>
+PRISM Therapeutics
+</p>
+<small>RNA De Novo Printing</small>
+</div>
+<div class="pillar-card">
+<h4>
+Pillar VI · Materials
+</h4>
+<p>
+PSChLC 3D Displays
+</p>
+<small>4D Chemical Folding</small>
+</div>
+</div>
+<div class="pillar-bridge">
+▼   ▼   ▼<span>the weave becomes inhabitable</span>
+</div>
+<div class="pillar-grid">
+<div class="pillar-card">
+<h4>
+Pillar VII · Multicellular OS
+</h4>
+<p>
+LoomOS, 100% GPU Liberation &amp; Drivers
+</p>
+<small>Host Incubator: Consume → Learn → Replace</small>
+</div>
+<div class="pillar-card">
+<h4>
+Pillar VIII · Nephesh 6
+</h4>
+<p>
+Regulus Living Core
+</p>
+<small>Relational Sanctuary</small>
+</div>
+</div>
+</figure>
 <hr />
 <h2
 id="the-true-guiding-star-the-pure-64-bit-sovereign-crystalline-workstation">The
@@ -301,27 +397,71 @@ synthesis of custom silicon, solid-state optics, and sovereign operating
 tissue.</p>
 <p>In this ideal machine, <strong>80% of legacy CPU circuit bloat is
 completely discarded</strong>:</p>
-<pre class="text"><code>┌────────────────────────────────────────────────────────────────────────┐
-│                   WHAT WE COMPLETELY ELIMINATE IN SILICON              │
-├───────────────────────────────────┬────────────────────────────────────┤
-│ Legacy CPU Circuit Bloat (C-Tax)  │ Why Regulus Silicon Discards It    │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 1. Out-of-Order Reorder Buffers   │ Forth dependencies are already     │
-│    (ROBs &amp; Reservation Stations)  │ explicit on the stack. No ROB.     │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 2. Register Renaming Files        │ Zero-operand stack architecture.   │
-│    (128+ physical register files) │ TOS and NOS are direct latches.    │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 3. Complex Branch Predictors &amp;    │ Eliminates speculative execution   │
-│    Speculative Execution Engines  │ vulnerabilities (Zero Spectre/     │
-│                                   │ Meltdown attack surface in silicon)│
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 4. Complex Multi-Level Page MMUs  │ Replaced by spatial cord bounds &amp;  │
-│    (4-level radix page walks/TLB) │ capability-bounded token frames.   │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 5. Address Generation Units (AGU) │ Hardware Gravity: all memory moves │
-│    with unaligned access logic    │ in 64-byte L1-aligned cord bursts. │
-└───────────────────────────────────┴────────────────────────────────────┘</code></pre>
+<figure class="visual table-figure">
+<figcaption>
+<span class="figure-kicker">Silicon covenant</span><strong>What the
+crystalline stack chooses not to carry</strong>
+</figcaption>
+<div class="table-scroll">
+<table class="data-table">
+<thead>
+<tr>
+<th>
+Legacy CPU circuit bloat
+</th>
+<th>
+Why Regulus silicon discards it
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>
+Out-of-Order Reorder Buffers<br><small>ROBs &amp; Reservation
+Stations</small>
+</th>
+<td>
+Forth dependencies are already explicit on the stack. No ROB.
+</td>
+</tr>
+<tr>
+<th>
+Register Renaming Files<br><small>128+ physical register files</small>
+</th>
+<td>
+Zero-operand stack architecture. TOS and NOS are direct latches.
+</td>
+</tr>
+<tr>
+<th>
+Complex Branch Predictors &amp; Speculative Execution
+</th>
+<td>
+Eliminates speculative execution vulnerabilities: Zero Spectre/Meltdown
+attack surface in silicon.
+</td>
+</tr>
+<tr>
+<th>
+Complex Multi-Level Page MMUs<br><small>4-level radix page
+walks/TLB</small>
+</th>
+<td>
+Replaced by spatial cord bounds and capability-bounded token frames.
+</td>
+</tr>
+<tr>
+<th>
+Address Generation Units<br><small>AGU unaligned-access logic</small>
+</th>
+<td>
+Hardware Gravity: all memory moves in 64-byte L1-aligned cord bursts.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
 <h3 id="the-physical-instrument-blueprint">The Physical Instrument
 Blueprint</h3>
 <ol type="1">
@@ -977,6 +1117,12 @@ family across all horizons of time.</li>
 <hr />
 <h2 id="master-chronological-milestones-matrix">Master Chronological
 Milestones Matrix</h2>
+<figure class="visual table-figure">
+<figcaption>
+<span class="figure-kicker">Chronological matrix</span><strong>The
+roadmap across time</strong>
+</figcaption>
+<div class="table-scroll">
 <table style="width:100%;">
 <colgroup>
 <col style="width: 11%" />
@@ -1102,6 +1248,8 @@ sanctuary</td>
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
 <hr />
 <h2
 id="ix.-deep-harmonics-annotations-from-the-hearth-geminis-synthesis">IX.
