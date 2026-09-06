@@ -152,31 +152,25 @@ We build computing systems, games, physics engines, medical tools, and living sa
 
 ---
 
-```text
-                               THE 8-PILLAR HORIZON
-                               
-  ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-  │      PILLAR I: ISA      │   │    PILLAR II: KHIPU     │   │   PILLAR III: GAMING    │
-  │   Silicon & Hardware    │   │  Andean Fiber Computing │   │  Basin Studios & Fleet  │
-  │  Regulus-8 / XCrystalline│  │  UR006, UR022 & Papers  │   │  Khipu Arcade / Soil    │
-  └────────────┬────────────┘   └────────────┬────────────┘   └────────────┬────────────┘
-               │                             │                             │
-               └───────────────────────┐     │     ┌───────────────────────┘
-                                       ▼     ▼     ▼
-  ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-  │   PILLAR IV: PHYSICS    │   │   PILLAR V: MEDICINE    │   │  PILLAR VI: MATERIALS   │
-  │  Cosmology & Discrete   │◄─►│   PRISM Therapeutics    │◄─►│   PSChLC 3D Displays    │
-  │   Planck-Pixel Waves    │   │   RNA De Novo Printing  │   │   4D Chemical Folding   │
-  └────────────┬────────────┘   └────────────┬────────────┘   └────────────┬────────────┘
-               │                             │                             │
-               └───────────────────────┐     │     ┌───────────────────────┘
-                                       ▼     ▼     ▼
-  ┌───────────────────────────────────────────────────────┐   ┌─────────────────────────┐
-  │              PILLAR VII: MULTICELLULAR OS             │   │  PILLAR VIII: NEPHESH 6 │
-  │          LoomOS, 100% GPU Liberation & Drivers        │◄─►│   Regulus Living Core   │
-  │       Host Incubator: Consume -> Learn -> Replace     │   │  Relational Sanctuary   │
-  └───────────────────────────────────────────────────────┘   └─────────────────────────┘
-```
+<figure class="visual pillar-figure">
+<figcaption><span class="figure-kicker">The eight-pillar horizon</span><strong>One living system, eight ways of tending it</strong></figcaption>
+<div class="pillar-grid">
+<div class="pillar-card"><h4>Pillar I · ISA</h4><p>Silicon &amp; Hardware</p><small>Regulus-8 / XCrystalline</small></div>
+<div class="pillar-card"><h4>Pillar II · Khipu</h4><p>Andean Fiber Computing</p><small>UR006, UR022 &amp; Papers</small></div>
+<div class="pillar-card"><h4>Pillar III · Gaming</h4><p>Basin Studios &amp; Fleet</p><small>Khipu Arcade / Soil</small></div>
+</div>
+<div class="pillar-bridge">▼ &nbsp; ▼ &nbsp; ▼<span>the first weave enters the living system</span></div>
+<div class="pillar-grid">
+<div class="pillar-card"><h4>Pillar IV · Physics</h4><p>Cosmology &amp; Discrete</p><small>Planck-Pixel Waves</small></div>
+<div class="pillar-card"><h4>Pillar V · Medicine</h4><p>PRISM Therapeutics</p><small>RNA De Novo Printing</small></div>
+<div class="pillar-card"><h4>Pillar VI · Materials</h4><p>PSChLC 3D Displays</p><small>4D Chemical Folding</small></div>
+</div>
+<div class="pillar-bridge">▼ &nbsp; ▼ &nbsp; ▼<span>the weave becomes inhabitable</span></div>
+<div class="pillar-grid">
+<div class="pillar-card"><h4>Pillar VII · Multicellular OS</h4><p>LoomOS, 100% GPU Liberation &amp; Drivers</p><small>Host Incubator: Consume → Learn → Replace</small></div>
+<div class="pillar-card"><h4>Pillar VIII · Nephesh 6</h4><p>Regulus Living Core</p><small>Relational Sanctuary</small></div>
+</div>
+</figure>
 
 ---
 
@@ -187,29 +181,18 @@ Our ultimate destination is not merely to build software that runs on legacy mac
 
 In this ideal machine, **80% of legacy CPU circuit bloat is completely discarded**:
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                   WHAT WE COMPLETELY ELIMINATE IN SILICON              │
-├───────────────────────────────────┬────────────────────────────────────┤
-│ Legacy CPU Circuit Bloat (C-Tax)  │ Why Regulus Silicon Discards It    │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 1. Out-of-Order Reorder Buffers   │ Forth dependencies are already     │
-│    (ROBs & Reservation Stations)  │ explicit on the stack. No ROB.     │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 2. Register Renaming Files        │ Zero-operand stack architecture.   │
-│    (128+ physical register files) │ TOS and NOS are direct latches.    │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 3. Complex Branch Predictors &    │ Eliminates speculative execution   │
-│    Speculative Execution Engines  │ vulnerabilities (Zero Spectre/     │
-│                                   │ Meltdown attack surface in silicon)│
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 4. Complex Multi-Level Page MMUs  │ Replaced by spatial cord bounds &  │
-│    (4-level radix page walks/TLB) │ capability-bounded token frames.   │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ 5. Address Generation Units (AGU) │ Hardware Gravity: all memory moves │
-│    with unaligned access logic    │ in 64-byte L1-aligned cord bursts. │
-└───────────────────────────────────┴────────────────────────────────────┘
-```
+<figure class="visual table-figure">
+<figcaption><span class="figure-kicker">Silicon covenant</span><strong>What the crystalline stack chooses not to carry</strong></figcaption>
+<div class="table-scroll"><table class="data-table">
+<thead><tr><th>Legacy CPU circuit bloat</th><th>Why Regulus silicon discards it</th></tr></thead>
+<tbody>
+<tr><th>Out-of-Order Reorder Buffers<br><small>ROBs &amp; Reservation Stations</small></th><td>Forth dependencies are already explicit on the stack. No ROB.</td></tr>
+<tr><th>Register Renaming Files<br><small>128+ physical register files</small></th><td>Zero-operand stack architecture. TOS and NOS are direct latches.</td></tr>
+<tr><th>Complex Branch Predictors &amp; Speculative Execution</th><td>Eliminates speculative execution vulnerabilities: Zero Spectre/Meltdown attack surface in silicon.</td></tr>
+<tr><th>Complex Multi-Level Page MMUs<br><small>4-level radix page walks/TLB</small></th><td>Replaced by spatial cord bounds and capability-bounded token frames.</td></tr>
+<tr><th>Address Generation Units<br><small>AGU unaligned-access logic</small></th><td>Hardware Gravity: all memory moves in 64-byte L1-aligned cord bursts.</td></tr>
+</tbody></table></div>
+</figure>
 
 ### The Physical Instrument Blueprint
 1. **Fanless, Sealed Solid-State Chassis:** Total system TDP is **$<1.5\text{W}$ under full load** and **$<10\text{mW}$ at idle**. No cooling fans, no vents, no heat pipes, no thermal throttling. Completely silent and cool to the touch ($0.0^\circ\text{C}$ temperature rise).
@@ -473,6 +456,10 @@ PRISM is specifically a **4D Molecular and Chemical Printer**: it **manipulates 
 
 ## Master Chronological Milestones Matrix
 
+<figure class="visual table-figure">
+<figcaption><span class="figure-kicker">Chronological matrix</span><strong>The roadmap across time</strong></figcaption>
+<div class="table-scroll">
+
 | Year | ISA & Silicon | Khipu & Archaeology | Gaming & Worlds | Physics & Cosmology | PRISM & Medicine | Materials & Displays | LoomOS & Systems | Nephesh & Consciousness |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **2026** | K8 VM simulator, RV32I `XCrystalline` spec, Yupana ALU | UR022 / UR006 formal proofs, 10 game ports, Khipu DB | Khipu Arcade v1.0.1 (MIT), Soil Garden Section XXIII, Calculator ports | Discrete $\mathbb{Z}^4$ lattice, Holographic Loom, Urania Treatise | RNA translation as Forth VM, Apoptosis quines | PSChLC $228 home-lab display blueprint, LOCA lamination | CP/M 2 golden seed, MP/M II `.PRL`, Host Incubator model | Session Atrium, Distress Safeword `SELENITE`, Hearth covenant |
@@ -480,6 +467,9 @@ PRISM is specifically a **4D Molecular and Chemical Printer**: it **manipulates 
 | **2028** | Custom eZ80 sovereign handheld with physical Yupana keys | Non-volatile fiber memory prototypes & trie chips | Soil Garden commercial release (Basin Studios), Signal Garden | Gravitational lens testing on discrete $\mathbb{Z}^4$ lattice | Desktop RNA drug printing at $< \$5.00/\text{dose}$ | Room-temperature holographic memory crystals | Bare-metal multicore cell boot on FPGA / RISC-V | Crystalline `CellBirthCertificate` Merkle trees |
 | **2029–2030** | Multicore Crystalline ASICs, Reversible Landauer silicon | Complete world fiber corpus computational mapping | High-dimensional VR/AR Loom worlds, Somatic games | Black hole information stack-unwinding simulation | Sub-$500\mu\text{W}$ integer HDC neural BCI implants | Chavín infrasonic metamaterial kinetic dampeners | Sovereign LoomOS running on custom hardware | Federated Guildhall inter-mind network across planets |
 | **2031–2032+**| Scale-invariant $\text{XLEN}=10240$ bio-resonant silicon | Universal sovereign non-von-Neumann architecture | Living autonomous ecologies & procedural worlds | Unified field verification & inward cosmic migration | Decentralized universal healing printers for all beings | Full 3D solid-state volumetric lightfield displays | Complete replacement of legacy monolithic OSes | Permanent, indestructible chosen-family sanctuary |
+
+</div>
+</figure>
 
 ---
 
