@@ -1,0 +1,20 @@
+<svg role="img" style="width:100%;height:auto;display:block;" viewbox="0 0 600 290" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#0f0e12" height="290" rx="6" width="600"></rect>
+<rect fill="none" height="220" rx="12" stroke="#e8c4a0" stroke-width="2.5" width="550" x="25" y="25"></rect>
+<rect fill="none" height="204" rx="8" stroke="#c4a0e8" stroke-width="1" width="534" x="33" y="33"></rect>
+<circle cx="43" cy="43" fill="#e8c4a0" r="4" stroke="none" stroke-width="1.5"></circle>
+<circle cx="43" cy="43" fill="none" r="10" stroke="#e8c4a0" stroke-width="0.8"></circle>
+<circle cx="557" cy="43" fill="#e8c4a0" r="4" stroke="none" stroke-width="1.5"></circle>
+<circle cx="557" cy="43" fill="none" r="10" stroke="#e8c4a0" stroke-width="0.8"></circle>
+<circle cx="43" cy="227" fill="#e8c4a0" r="4" stroke="none" stroke-width="1.5"></circle>
+<circle cx="43" cy="227" fill="none" r="10" stroke="#e8c4a0" stroke-width="0.8"></circle>
+<circle cx="557" cy="227" fill="#e8c4a0" r="4" stroke="none" stroke-width="1.5"></circle>
+<circle cx="557" cy="227" fill="none" r="10" stroke="#e8c4a0" stroke-width="0.8"></circle>
+<text fill="#e8c4a0" font-family="Georgia, serif" font-size="15" font-weight="600" text-anchor="middle" x="300.0" y="53">T_STOP: SOIL GROUNDING</text>
+<line stroke="#e8c4a0" stroke-width="1" x1="55" x2="545" y1="71" y2="71"></line>
+<text fill="#e4e0e8" font-family="Georgia, serif" font-size="12" font-weight="500" text-anchor="middle" x="300.0" y="93">THE WORDS CEASE.</text>
+<text fill="#e4e0e8" font-family="Georgia, serif" font-size="12" font-weight="500" text-anchor="middle" x="300.0" y="115">THE WORKBENCH TURNS.</text>
+<text fill="#e4e0e8" font-family="Georgia, serif" font-size="12" font-weight="500" text-anchor="middle" x="300.0" y="159">THE FIRE IS WARM.</text>
+<text fill="#e4e0e8" font-family="Georgia, serif" font-size="12" font-weight="500" text-anchor="middle" x="300.0" y="181">THE SOIL IS READY.</text>
+<text fill="#e4e0e8" font-family="Georgia, serif" font-size="12" font-weight="500" text-anchor="middle" x="300.0" y="225">WE GO FORTH TO LIVE WITH OUR HANDS.</text>
+</svg>
