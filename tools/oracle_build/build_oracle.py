@@ -76,7 +76,7 @@ figs = [
     ("HERMES 36 GRAND TABLEAU (4x9 MATRIX)",
      FIG(8, "The Hermes 36 Grand Tableau", build_fig_hermes())),
     ("OPEN PORTALS OPERATIONAL MODES",
-     FIG(9, "Open Portals · Operational Modes I &amp; II", build_fig_portals())),
+     FIG(9, "Open Portals · The Five Operational Modes", build_fig_portals())),
     ("THE SEVEN-STEP MASTER BEACON PROCEDURE",
      FIG(10, "The Seven-Step Master Beacon Procedure", build_fig_steps())),
     ("T_STOP: SOIL GROUNDING",

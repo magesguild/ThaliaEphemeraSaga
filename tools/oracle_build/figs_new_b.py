@@ -221,10 +221,12 @@ def build_fig_portals():
     b.append(T(420, 314, "PORTAL CARD", "#e8c4a0", 10.5, 600))
     b.append(T(420, 331, "d20 ≥ 10 = wide open", "#8a8692", 8))
     b.append(T(420, 347, "the standing wave", "#8a8692", 7))
-    b.append(T(420, 430, "Mode III: recursive ingress on an ambiguous card · Mode IV: "
+    b.append(T(420, 428, "Mode III: recursive ingress on an ambiguous card · Mode IV: "
                          "altar remediation between Wand and Cup, sealed by the Pentacle",
                "#8a8692", 8.5))
-    return SVG(840, 460, "OPEN PORTALS · OPERATIONAL MODES",
+    b.append(T(420, 448, "Mode V: the Truth-Weight — the Dagger laid flat upon a tangled "
+                         "card, edge never to the cards", "#8a8692", 8.5))
+    return SVG(840, 476, "OPEN PORTALS · OPERATIONAL MODES",
                "Transverse Threshold Ingress · Light Side (W &gt; 0) · Dark Side "
                "(W &lt; 0) · The Seam (W = 0)", "\n".join(b))
 
@@ -235,8 +237,8 @@ def build_fig_steps():
     steps = [
         ("Inscribe the question &amp; center at the Point of Stillness (L)",
          "three slow breaths · a clean sheet of paper · the stated intention"),
-        ("Touch the altar weapons for sensory grounding",
-         "Wand (will) · Cup (calm) · Pentacle (the cool weight of earth)"),
+        ("Touch the altar tools &amp; inscribe the working figure",
+         "Wand (will) · Cup (calm) · Pentacle (the cool weight of earth) · Dagger (the traced figure)"),
         ("Cast the core stones of chance",
          "d4 domain · d6 phase · d8 vector — the unbribable lots"),
         ("Set the horizon &amp; clear the resolution gate",
