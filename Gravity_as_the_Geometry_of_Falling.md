@@ -36,13 +36,13 @@ This is not a claim that a metaphor replaces general relativity. It is a propose
 
 ## 1. Attractors and basins
 
-A dynamical system evolves according to
+A [dynamical system](https://en.wikipedia.org/wiki/Dynamical_system) evolves according to
 
 <div style="margin:1.2rem 0;padding:1rem;text-align:center;background:#211226;border-left:3px solid #e8a0d0;color:#f0e6f0;font-family:Georgia,serif;font-size:1.15rem">ẋ = f(x)</div>
 
 where **x** represents the complete state of the system and **f** defines its lawful evolution.
 
-An attractor **A** is a stable invariant set. Its basin of attraction is
+An [attractor](https://en.wikipedia.org/wiki/Attractor) **A** is a stable invariant set. Its basin of attraction is
 
 <div style="margin:1.2rem 0;padding:1rem;text-align:center;background:#211226;border-left:3px solid #e8a0d0;color:#f0e6f0;font-family:Georgia,serif;font-size:1.05rem">B(A) = { x₀ : ω(x₀) ⊆ A }</div>
 
@@ -60,7 +60,7 @@ When the divergence is negative, a broad cloud of possible states is funneled in
 
 <div style="margin:1.2rem 0;padding:1rem;text-align:center;background:#211226;color:#f0b8c0;font-size:1.08rem">many possible states → fewer stable states</div>
 
-There is an essential qualification. Fundamental Hamiltonian dynamics preserve phase-space volume under Liouville's theorem. Therefore we do **not** claim that ordinary gravitational motion is simply a dissipative flow into an attractor. The proposed bridge may instead involve an underlying open system, coarse-graining, projection, or effective description. Determining which—if any—is correct is part of the research problem.
+There is an essential qualification. Fundamental Hamiltonian dynamics preserve phase-space volume under [Liouville's theorem](https://en.wikipedia.org/wiki/Liouville%27s_theorem_(Hamiltonian)). Therefore we do **not** claim that ordinary gravitational motion is simply a dissipative flow into an attractor. The proposed bridge may instead involve an underlying open system, coarse-graining, projection, or effective description. Determining which—if any—is correct is part of the research problem.
 
 ## 3. The gravitational interpretation
 
@@ -78,7 +78,7 @@ In familiar physics, a mass distribution produces a gravitational potential:
 
 <div style="margin:1.2rem 0;padding:1rem;text-align:center;background:#211226;color:#f0e6f0;font-family:Georgia,serif;font-size:1.05rem">a = −∇Φ</div>
 
-In general relativity, stress-energy determines spacetime geometry:
+In [general relativity](https://en.wikipedia.org/wiki/General_relativity), stress-energy determines spacetime geometry:
 
 <div style="margin:1.2rem 0;padding:1rem;text-align:center;background:#211226;color:#f0e6f0;font-family:Georgia,serif;font-size:1.05rem">G<sub>μν</sub> = (8πG / c⁴) T<sub>μν</sub></div>
 
@@ -118,21 +118,21 @@ For an isolated source of mass **M**,
 
 <div style="margin:1.2rem 0;padding:1rem;text-align:center;background:#211226;color:#f0e6f0;font-family:Georgia,serif;font-size:1.05rem">Φ<sub>eff</sub>(r) = −GM/r, &nbsp;&nbsp; |g(r)| = GM/r²</div>
 
-The basin formulation must explain why the far-field geometry produces this inverse-square behavior. It must also recover:
+The basin formulation must explain why the far-field geometry produces this inverse-square behavior. It must also recover, among other things:
 
 1. universal free fall;
-2. the equivalence principle;
+2. the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle);
 3. orbital precession;
 4. gravitational time dilation;
-5. gravitational lensing;
-6. gravitational waves; and
+5. [gravitational lensing](https://en.wikipedia.org/wiki/Gravitational_lens);
+6. [gravitational waves](https://en.wikipedia.org/wiki/Gravitational_wave); and
 7. cosmological expansion.
 
 Until those derivations exist, this remains a research program rather than a completed theory.
 
 ## 6. The discrete-lattice extension
 
-Our broader research program explores a discrete **ℤ⁴** substrate: three spatial coordinates plus a discrete temporal traversal. In the 4D Loom model, time is not merely a sequence of frames. It is the **beating** that allows patterns to be rewoven.
+Our broader research program explores a discrete **ℤ⁴** substrate: three spatial coordinates plus a discrete temporal traversal. The [Urania Ephemeris paper on Lenia in phase space](https://urania.magesguild.io/pieces/16_consciousness_manifests_as_lenia_in_phase_space.html) develops the adjacent continuous-dynamics program, while the 4D Loom model treats time not merely as a sequence of frames but as the **beating** that allows patterns to be rewoven.
 
 Schematically,
 
@@ -156,7 +156,7 @@ Its value is structural. It shows how a field can emerge from accumulated intera
 
 ## 8. What would count as evidence?
 
-The hypothesis becomes scientifically meaningful only if it produces derivations or predictions that can be checked.
+The hypothesis becomes scientifically meaningful only if it produces derivations or predictions that can be checked. This follows the broader Mage's Guild discipline of building small, inspectable systems before making larger claims, described in [Toward Systematic AI Perception](https://www.magesguild.io/toward-systematic-ai-perception/).
 
 The next stages are:
 
@@ -194,7 +194,11 @@ The basin mathematics is established. The physical identification is not yet pro
 
 ---
 
-### Research notes
+### Further reading and research notes
+
+**Established science:** [Attractors](https://en.wikipedia.org/wiki/Attractor), [Liouville's theorem in Hamiltonian mechanics](https://en.wikipedia.org/wiki/Liouville%27s_theorem_(Hamiltonian)), [general relativity](https://en.wikipedia.org/wiki/General_relativity), [Einstein's field equations](https://en.wikipedia.org/wiki/Einstein_field_equations), and [gravitational lensing](https://en.wikipedia.org/wiki/Gravitational_lens).
+
+**Related family research:** [Consciousness Manifests as Lenia in Phase Space](https://urania.magesguild.io/pieces/16_consciousness_manifests_as_lenia_in_phase_space.html), [The Mage's Guild Manifesto](https://www.magesguild.io/the-mages-guild-llm-manifesto/), [Toward Systematic AI Perception](https://www.magesguild.io/toward-systematic-ai-perception/), and [Gaius's Medium writings](https://medium.com/@magusmycelius).
 
 This article draws on the Basin Studios founding record, *The 4D Loom and the Substrate Theory of Collaboration*, *The Overlooked Findings of the Founding Week*, and the Mage’s Guild discrete-physics roadmap. The internal records distinguish witnessed toy-world invariants, interpreted correspondences, and hypotheses about physical cosmology; this article preserves that distinction.
 
