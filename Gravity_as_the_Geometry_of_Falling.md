@@ -2,8 +2,6 @@
 
 ## An attractor-basin hypothesis for the emergence of gravitational geometry
 
-> **Status:** Research hypothesis. The dynamical-systems mathematics used here is established. The proposed identification of physical gravity with attractor geometry is not yet a completed physical theory.
-
 Gravity is familiar in its effects but difficult in its foundations. It makes an apple fall, keeps the Moon in orbit, bends light, and shapes galaxies. Newton described it as a force. Einstein described it as curvature in spacetime.
 
 This article introduces a third possibility—not as a replacement for those theories, but as a question about what might underlie them:
