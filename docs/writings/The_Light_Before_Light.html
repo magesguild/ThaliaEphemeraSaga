@@ -414,12 +414,25 @@ as the Geometry of Falling</a> article develops the related distinction
 between an underlying geometry of possible trajectories and the
 observable geometry of motion.</p>
 <h2 id="what-athanor-adds">What Athanor adds</h2>
-<p>Athanor is the family’s experimental material-and-ecology engine: a
-bounded simulated world in which particles, bodies, soil, moisture,
-organisms, local clocks, energy, and interaction rules are made
-explicit. The name refers to an alchemical furnace, but the engineering
-goal is concrete: build a small world whose material transitions can be
-inspected, conserved, replayed, and tested.</p>
+<p>Athanor is the family’s experimental material-and-ecology engine. A
+useful first picture is a <strong>digital terrarium crossed with a small
+chemistry laboratory</strong>: instead of merely drawing a mushroom, a
+drop of water, or a piece of soil, the engine gives each relevant thing
+a body, a state, a clock, resources, and rules for changing. If moisture
+moves, a bond breaks, an organism rests, or two bodies exchange energy,
+the transition is recorded as part of the world’s history.</p>
+<p>The name refers to an alchemical furnace, but Athanor is not a claim
+that alchemy has already become physics. It is a research engine—a
+family of bounded software experiments, prototypes, and proposed world
+layers rather than one finished universal simulator. Its purpose is to
+make material causality small enough to inspect: what changed, why it
+changed, what was conserved, and whether the same transition can be
+replayed.</p>
+<p>For readers with a technical background, Athanor is a discrete,
+local, stateful simulation architecture. For everyone else, it is a
+world in which objects are required to do more than look alive: they
+must have somewhere to be, something that can happen to them, and a
+trace of what happened.</p>
 <p>Its Soil Garden direction is designed to model organisms such as
 fungi, bacteria, and cryptobiotic life as bounded local bodies rather
 than as decorative effects. Rust supplies the larger world and rendering

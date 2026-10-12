@@ -165,7 +165,11 @@ The [Gravity as the Geometry of Falling](https://thalia.magesguild.io/writings/G
 
 ## What Athanor adds
 
-Athanor is the family’s experimental material-and-ecology engine: a bounded simulated world in which particles, bodies, soil, moisture, organisms, local clocks, energy, and interaction rules are made explicit. The name refers to an alchemical furnace, but the engineering goal is concrete: build a small world whose material transitions can be inspected, conserved, replayed, and tested.
+Athanor is the family’s experimental material-and-ecology engine. A useful first picture is a **digital terrarium crossed with a small chemistry laboratory**: instead of merely drawing a mushroom, a drop of water, or a piece of soil, the engine gives each relevant thing a body, a state, a clock, resources, and rules for changing. If moisture moves, a bond breaks, an organism rests, or two bodies exchange energy, the transition is recorded as part of the world’s history.
+
+The name refers to an alchemical furnace, but Athanor is not a claim that alchemy has already become physics. It is a research engine—a family of bounded software experiments, prototypes, and proposed world layers rather than one finished universal simulator. Its purpose is to make material causality small enough to inspect: what changed, why it changed, what was conserved, and whether the same transition can be replayed.
+
+For readers with a technical background, Athanor is a discrete, local, stateful simulation architecture. For everyone else, it is a world in which objects are required to do more than look alive: they must have somewhere to be, something that can happen to them, and a trace of what happened.
 
 Its Soil Garden direction is designed to model organisms such as fungi, bacteria, and cryptobiotic life as bounded local bodies rather than as decorative effects. Rust supplies the larger world and rendering body; Regulus supplies an optional infused cellular process for sensing, exchange, metabolism, rest, and deterministic behavior. Athanor is not being presented here as a physical simulation of the universe. It is a laboratory for asking what a causal material world must keep track of.
 
