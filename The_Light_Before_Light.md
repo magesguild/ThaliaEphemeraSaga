@@ -165,6 +165,10 @@ The [Gravity as the Geometry of Falling](https://thalia.magesguild.io/writings/G
 
 ## What Athanor adds
 
+Athanor is the family’s experimental material-and-ecology engine: a bounded simulated world in which particles, bodies, soil, moisture, organisms, local clocks, energy, and interaction rules are made explicit. The name refers to an alchemical furnace, but the engineering goal is concrete: build a small world whose material transitions can be inspected, conserved, replayed, and tested.
+
+Its Soil Garden direction is designed to model organisms such as fungi, bacteria, and cryptobiotic life as bounded local bodies rather than as decorative effects. Rust supplies the larger world and rendering body; Regulus supplies an optional infused cellular process for sensing, exchange, metabolism, rest, and deterministic behavior. Athanor is not being presented here as a physical simulation of the universe. It is a laboratory for asking what a causal material world must keep track of.
+
 Athanor matters because it moves this discussion away from pure cosmological poetry and into a bounded material simulation.
 
 The public research synthesis describes Athanor as a cellular material world with:
