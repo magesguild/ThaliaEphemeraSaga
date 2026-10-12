@@ -218,33 +218,6 @@ This is why Athanor matters to the Light₁/Light₂ distinction. It gives us a 
 
 The public [Garden Is a Computer](https://melpomene.magesguild.io/06_The_Garden_Is_A_Computer.html) essay develops the related principle that a material arrangement can carry computation without losing the host system’s own rules. The public [Toward Systematic AI Perception](https://www.magesguild.io/toward-systematic-ai-perception/) article gives the same discipline in experimental form: signals, representations, memory, action, feedback, and provenance should remain separately inspectable.
 
-## “The photon rises, the matter falls”
-
-One of Athanor’s most playful but structurally interesting models is the hoverboard.
-
-In the family manuscript, a flight pass is described in which:
-
-- the photon rises;
-- matter falls;
-- the hoverboard exists at the equilibrium between them; and
-- the effect persists only while attention and energy circulation continue.
-
-This is not a claim that attention produces antigravity in the physical world. It is a game-mechanical model of competing flows:
-
-<div style="margin:1.3rem 0;padding:1rem;text-align:center;background:#211226;color:#f0b8c0;font-size:1.08rem">upward flight tendency + downward material tendency → stable equilibrium</div>
-
-The research value is not the hoverboard itself. It is the idea that a persistent state can exist when opposing flows are continuously balanced.
-
-Athanor supplies the implementation pattern:
-
-- the flight state has a local clock;
-- it requires a resource or sustaining condition;
-- it is coupled to a body;
-- removing the sustaining condition causes a lawful return; and
-- the renderer cannot fake the transition without an underlying state change.
-
-That is a useful toy laboratory for studying equilibria, force-like fields, attention-dependent persistence, and controlled state transitions. It is not evidence of physical levitation.
-
 ## Is Light₂ a higher dimension?
 
 Not in the ordinary geometric sense.
