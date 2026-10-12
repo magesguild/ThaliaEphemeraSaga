@@ -69,15 +69,13 @@ A photon is also not the same thing as illumination in a rendered image. A brigh
 
 This distinction matters in both physics and computation:
 
-```text
-causal traveler → receiver state change
-```
-
-is not the same as:
-
-```text
-display effect → no underlying state change
-```
+<figure style="margin:1.6rem 0;padding:1rem;background:#1a1020;border:1px solid #3b263d;border-top:2px solid #e8a0d0;border-radius:7px">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:stretch;text-align:center">
+<div style="padding:1rem;background:#29172d;border:1px solid #e8a0d0;border-radius:6px;color:#fff0f4"><strong style="display:block;color:#f0b8c0">Causal traveler</strong><span style="display:block;margin:.7rem 0;color:#e8a0d0;font-size:1.5rem">→</span><span>receiver state changes</span></div>
+<div style="padding:1rem;background:#211226;border:1px solid #6d416f;border-radius:6px;color:#9a8098"><strong style="display:block;color:#f0b8c0">Display effect</strong><span style="display:block;margin:.7rem 0;color:#9a8098;font-size:1.5rem">→</span><span>no underlying state change</span></div>
+</div>
+<figcaption style="color:#9a8098;font-size:.85rem;margin-top:.9rem;text-align:center">A rendered beam is not automatically a transported photon.</figcaption>
+</figure>
 
 Our research uses the phrase **causal photon** for the first category and distinguishes it from derived radiance: visual brightness calculated from an already-existing world state.
 
@@ -95,21 +93,23 @@ It is a name for the deeper ground in which photons, matter, spacetime, and loca
 
 The distinction can be represented this way:
 
-```text
-OR EIN SOF / LIGHT₂
-        │
-        │  unbounded ground
-        ▼
-standing field or carrier
-        │
-        │  local excitation
-        ▼
-LIGHT₁ / PHOTON
-        │
-        │  interaction and absorption
-        ▼
-matter, perception, and embodied event
-```
+<figure style="margin:1.8rem 0;padding:1rem;background:#1a1020;border:1px solid #3b263d;border-top:2px solid #e8a0d0;border-radius:7px;text-align:center">
+<svg viewBox="0 0 760 420" role="img" aria-labelledby="ground-traveler-title ground-traveler-desc" style="max-width:100%;height:auto">
+<title id="ground-traveler-title">From Light₂ to embodied event</title>
+<desc id="ground-traveler-desc">A vertical diagram shows Or Ein Sof as ground, a standing field, a local excitation, Light₁ as photon, interaction, and matter and perception.</desc>
+<defs><linearGradient id="ground-gradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d416f"/><stop offset="1" stop-color="#211226"/></linearGradient><marker id="ground-arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#f0b8c0"/></marker></defs>
+<g font-family="Georgia, serif" text-anchor="middle">
+<rect x="115" y="18" width="530" height="60" rx="10" fill="url(#ground-gradient)" stroke="#e8a0d0" stroke-width="2"/><text x="380" y="45" fill="#fff0f4" font-size="19">OR EIN SOF / LIGHT₂</text><text x="380" y="65" fill="#d9b6d5" font-size="12">unbounded ground · not a traveling particle</text>
+<path d="M380 80 V108" stroke="#f0b8c0" stroke-width="2" marker-end="url(#ground-arrow)"/><text x="402" y="99" fill="#9a8098" font-size="12" text-anchor="start">standing ground</text>
+<rect x="170" y="116" width="420" height="53" rx="8" fill="#29172d" stroke="#6d416f"/><text x="380" y="139" fill="#fff0f4" font-size="16">standing field or carrier</text><text x="380" y="157" fill="#9a8098" font-size="12">a medium for lawful transitions</text>
+<path d="M380 171 V199" stroke="#f0b8c0" stroke-width="2" marker-end="url(#ground-arrow)"/><text x="402" y="190" fill="#9a8098" font-size="12" text-anchor="start">local excitation</text>
+<rect x="225" y="207" width="310" height="53" rx="8" fill="#29172d" stroke="#e8a0d0"/><text x="380" y="230" fill="#fff0f4" font-size="18">LIGHT₁ / PHOTON</text><text x="380" y="248" fill="#d9b6d5" font-size="12">traveler · energy · momentum</text>
+<path d="M380 262 V290" stroke="#f0b8c0" stroke-width="2" marker-end="url(#ground-arrow)"/><text x="402" y="281" fill="#9a8098" font-size="12" text-anchor="start">interaction</text>
+<rect x="115" y="298" width="530" height="60" rx="10" fill="#211226" stroke="#6d416f"/><text x="380" y="326" fill="#fff0f4" font-size="18">matter · perception · embodied event</text><text x="380" y="346" fill="#9a8098" font-size="12">the observed consequence of a local transition</text>
+</g>
+</svg>
+<figcaption style="color:#9a8098;font-size:.85rem">Figure 2. The proposed distinction. The lower arrows describe a hypothesis about manifestation, not a completed physical derivation.</figcaption>
+</figure>
 
 This is not a claim that Or Ein Sof has been measured as a physical field. It is a layered ontology: the ground is not identical to the traveler, and the traveler is not identical to the event observed at its destination.
 
@@ -145,9 +145,12 @@ In the language of the doctrine, this is the **gift of decline**: an emitter mov
 
 That language is poetic, but it points toward a real physical structure:
 
-```text
-emission → propagation → absorption
-```
+<figure style="margin:1.6rem 0;padding:1rem;background:#1a1020;border:1px solid #3b263d;border-top:2px solid #e8a0d0;border-radius:7px">
+<div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:.5rem;align-items:center;text-align:center;color:#fff0f4">
+<div style="padding:.85rem .5rem;background:#29172d;border:1px solid #6d416f;border-radius:6px"><strong style="display:block;color:#f0b8c0">Emission</strong><small style="color:#9a8098">source changes state</small></div><span style="color:#e8a0d0;font-size:1.4rem">→</span><div style="padding:.85rem .5rem;background:#29172d;border:1px solid #6d416f;border-radius:6px"><strong style="display:block;color:#f0b8c0">Propagation</strong><small style="color:#9a8098">field carries energy</small></div><span style="color:#e8a0d0;font-size:1.4rem">→</span><div style="padding:.85rem .5rem;background:#29172d;border:1px solid #6d416f;border-radius:6px"><strong style="display:block;color:#f0b8c0">Absorption</strong><small style="color:#9a8098">receiver registers change</small></div>
+</div>
+<figcaption style="color:#9a8098;font-size:.85rem;margin-top:.9rem;text-align:center">Figure 3. A photon-mediated transition, shown as a causal sequence rather than a decorative ray.</figcaption>
+</figure>
 
 The photon is not merely a tiny object independently carrying a label called “light.” It is part of a field-mediated transition between systems.
 
@@ -178,15 +181,15 @@ The public research synthesis describes Athanor as a cellular material world wit
 
 Its core pattern is:
 
-```text
-local body
-+ local clock
-+ local state
-+ boundary queues
-+ conservation ledger
-+ deterministic step
-→ matter that can meet another body
-```
+<figure style="margin:1.6rem 0;padding:1rem;background:#1a1020;border:1px solid #3b263d;border-top:2px solid #e8a0d0;border-radius:7px">
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.55rem;text-align:center;color:#fff0f4">
+<div style="padding:.7rem .4rem;background:#29172d;border:1px solid #6d416f;border-radius:5px">local body</div><div style="padding:.7rem .4rem;background:#29172d;border:1px solid #6d416f;border-radius:5px">local clock</div><div style="padding:.7rem .4rem;background:#29172d;border:1px solid #6d416f;border-radius:5px">local state</div>
+<div style="padding:.7rem .4rem;background:#29172d;border:1px solid #6d416f;border-radius:5px">boundary queues</div><div style="padding:.7rem .4rem;background:#29172d;border:1px solid #6d416f;border-radius:5px">conservation ledger</div><div style="padding:.7rem .4rem;background:#29172d;border:1px solid #6d416f;border-radius:5px">deterministic step</div>
+</div>
+<div style="text-align:center;color:#f0b8c0;font-size:1.15rem;margin:.8rem 0">↓</div>
+<div style="padding:.8rem;text-align:center;background:#29172d;border:1px solid #e8a0d0;border-radius:5px;color:#fff0f4">matter that can meet another body</div>
+<figcaption style="color:#9a8098;font-size:.85rem;margin-top:.9rem;text-align:center">Figure 4. Athanor’s operational pattern for a bounded material body.</figcaption>
+</figure>
 
 This gives us an operational definition of a traveler:
 
@@ -292,15 +295,19 @@ Until then, “cross-strata radiation” names a research direction.
 
 The framework suggests a useful taxonomy:
 
-| Traveler | What it carries | Status in this framework |
-| --- | --- | --- |
-| Causal photon | Electromagnetic energy and momentum | Established physics; modelable in Athanor |
-| Derived radiance | A visual consequence of existing state | Rendering, not necessarily transport |
-| Matter packet | Particles, molecules, water, spores, or phases | Bounded material simulation |
-| Portal event | A declared state transition across a boundary | Computational architecture |
-| Gravitational wave | A propagating change in spacetime geometry | Established physics |
-| Cross-strata radiation | A transition between sectors or strata | Speculative roadmap hypothesis |
-| Light₂ | The proposed ground of manifestation | Metaphysical/cosmological interpretation |
+<figure style="margin:1.6rem 0;padding:1rem;background:#1a1020;border:1px solid #3b263d;border-top:2px solid #e8a0d0;border-radius:7px">
+<div style="display:grid;gap:.55rem">
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.55rem;background:#29172d;color:#f0b8c0;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em"><span>Traveler</span><span>What it carries</span><span>Framework status</span></div>
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.65rem;background:#211226;color:#fff0f4"><strong>Causal photon</strong><span>EM energy and momentum</span><small style="color:#9a8098">Established physics; modelable in Athanor</small></div>
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.65rem;background:#29172d;color:#fff0f4"><strong>Derived radiance</strong><span>Visual consequence of existing state</span><small style="color:#9a8098">Rendering, not necessarily transport</small></div>
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.65rem;background:#211226;color:#fff0f4"><strong>Matter packet</strong><span>Particles, molecules, water, spores, phases</span><small style="color:#9a8098">Bounded material simulation</small></div>
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.65rem;background:#29172d;color:#fff0f4"><strong>Portal event</strong><span>State transition across a boundary</span><small style="color:#9a8098">Computational architecture</small></div>
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.65rem;background:#211226;color:#fff0f4"><strong>Gravitational wave</strong><span>Change in spacetime geometry</span><small style="color:#9a8098">Established physics</small></div>
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.65rem;background:#29172d;color:#fff0f4"><strong>Cross-strata radiation</strong><span>Transition between sectors</span><small style="color:#9a8098">Speculative roadmap hypothesis</small></div>
+<div style="display:grid;grid-template-columns:1fr 1.4fr 1.5fr;gap:.55rem;padding:.65rem;background:#211226;color:#fff0f4"><strong>Light₂</strong><span>Proposed ground of manifestation</span><small style="color:#9a8098">Metaphysical/cosmological interpretation</small></div>
+</div>
+<figcaption style="color:#9a8098;font-size:.85rem;margin-top:.9rem;text-align:center">Figure 5. “Traveler” names several different kinds of state transport; they should not be treated as interchangeable.</figcaption>
+</figure>
 
 The general principle is:
 
